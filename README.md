@@ -25,6 +25,8 @@ Then open `chrome://inspect` in Chrome and start profiling.
 
 ## Issue
 
+https://github.com/nodejs/node/issues/59976
+
 You **should** see the bulk of time being spent in `busyLoop`. However, all
 time is spent in `noop`, despite this function never being called.
 
